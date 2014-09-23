@@ -21,8 +21,10 @@ $(document).on('ready', function() {
 
 //    keyValue
 
-var keyValue=function (obj) {
-	return obj.name; 
+var keyValue=function (city, name) {
+	var object={};
+	object[city]=name;
+	return object;
 };
 
 console.log(keyValue('city', 'Denver'));
