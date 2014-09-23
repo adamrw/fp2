@@ -21,11 +21,28 @@ $(document).on('ready', function() {
 
 //    keyValue
 
-var keyValue=function (city, name) {
-	var object={};
-	object[city]=name;
-	return object;
-};
+// var keyValue=function (city, name) {
+// 	var object={};
+// 	object[city]=name;
+// 	return object;
+// };
 
-console.log(keyValue('city', 'Denver'));
+// console.log(keyValue('city', 'Denver'));
+
+
+
+//    negativeIndex
+
+
+var negativeIndex=function(a, b){
+	b=[a+1];
+	var obj=[]
+	return obj;
+
+
+};
+console.log(negativeIndex(['a', 'b', 'c', 'd', 'e'], -2));
+
+
+
 });
