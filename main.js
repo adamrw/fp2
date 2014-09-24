@@ -35,13 +35,31 @@ $(document).on('ready', function() {
 
 
 var negativeIndex=function(a, b){
-	b=[a+1];
-	var obj=[]
-	return obj;
-
+	var i= a.length + b;
+	return a[i];
 
 };
 console.log(negativeIndex(['a', 'b', 'c', 'd', 'e'], -2));
+
+
+
+//    removeM
+
+var removeM=function(word){
+	var replaceM=word.replace(/m/g, '');
+	// for(i=0; i<word.length; i++){
+	// 	if(i !='m'){
+	// 		replaceM.push(i);
+	// 		word.join(replaceM);	
+	// }
+	return replaceM;
+};
+removeM('family');
+console.log(removeM);
+
+
+
+
 
 
 
