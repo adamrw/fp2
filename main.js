@@ -59,6 +59,58 @@ console.log(removeM);
 
 
 
+//    **********printObject**********
+
+var printObject=function(key, value){
+	var items=[
+
+		];
+	return items
+	
+};
+var listItems=_.each({})
+
+
+
+
+//    **********vowels**********
+
+var vowels=function(words){
+	var newWords=[];
+	// var vowlList= {
+	// 	'a': true,
+	// 	'e': true,
+	// 	'i': true,
+	// 	'o': true,
+	// 	'u': true
+	// };
+	for(i=0; i<words.length; i++){
+		if(words[i] === 'a' || 'e' || 'i' || 'o' || 'u'){
+			newWords.push(words[i]);
+		}
+	}
+	return words;
+};
+vowels('alabama');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
